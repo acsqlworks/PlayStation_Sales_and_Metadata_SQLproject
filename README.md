@@ -194,7 +194,7 @@ SELECT 'Post-2015' AS Era, COUNT(*) AS GamesReleased
 FROM [PlayStation Sales and Metadata (PS3PS4PS5) (Oct 2025)]
 WHERE Release_Date >= '2015-01-01';
 ```
-###For each console, show the total NA Sales, total PAL Sales, and total Japan Sales. Which console dominated each region?
+### For each console, show the total NA Sales, total PAL Sales, and total Japan Sales. Which console dominated each region?
 ```sql
 SELECT TOP 3 Console,
   SUM(NA_Sales) AS NA_Sales,
@@ -204,7 +204,7 @@ FROM [PlayStation Sales and Metadata (PS3PS4PS5) (Oct 2025)]
 GROUP BY Console
 ORDER BY Console
 ```
-###Which publishers have more than 5 games with Total Sales greater than 5 million?
+### Which publishers have more than 5 games with Total Sales greater than 5 million?
 ```sql
 SELECT Publisher,
 COUNT(Total_Sales) AS SMASH_HIT
