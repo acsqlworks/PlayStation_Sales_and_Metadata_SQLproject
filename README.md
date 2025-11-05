@@ -1,5 +1,5 @@
 # PlayStation Sales and Metadata SQL Analysis
-![Playstation](https://github.com/acsqlworks/PlayStation_Sales_and_Metadata_SQLproject/blob/main/playstation%20logo.jpg)
+![Playstation](https://github.com/acsqlworks/PlayStation_Sales_and_Metadata_SQLproject/blob/main/playstation%20logo.png)
 
 ## Project Overview
 
