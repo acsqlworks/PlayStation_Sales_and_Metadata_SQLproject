@@ -35,53 +35,6 @@ This project showcases fundamental SQL querying techniques:
 - Data type conversions and table modifications
 - Filtering and conditional logic
 
-## Business Questions Analyzed
-
-### 1. **Console Distribution**
-Count of games released per console (PS3 vs PS4 vs PS5)
-
-### 2. **High-Performance Titles**
-Games exceeding 10 million in total sales
-
-### 3. **Publisher Analysis**
-Number of games released by each publisher, ranked by volume
-
-### 4. **Regional Sales Performance**
-Average sales by region (North America, PAL, Japan, Other)
-
-### 5. **Top Regional Markets**
-Identifying which regions generate the most revenue per console
-
-### 6. **Japan Market Gaps**
-Games with zero sales in the Japanese market
-
-### 7. **Sales Range Analysis**
-Minimum and maximum sales values across the dataset
-
-### 8. **Developer Productivity**
-Most prolific game developers by title count
-
-### 9. **Publisher Performance**
-Total sales analysis for major publishers (e.g., Activision)
-
-### 10. **Sports Game Publishers**
-Portfolio analysis for EA Sports titles
-
-### 11. **Release Timeline**
-Games released per year with temporal trends
-
-### 12. **Era Comparison**
-Pre-2015 vs Post-2015 release distribution
-
-### 13. **Console Market Dominance**
-Regional sales totals by console platform
-
-### 14. **Blockbuster Publishers**
-Publishers with multiple titles exceeding 5 million sales
-
-### 15. **Sales Benchmarks**
-Games meeting specific sales thresholds by publisher
-
 ## Technical Implementation
 
 ### Database Setup
@@ -89,7 +42,7 @@ Games meeting specific sales thresholds by publisher
 - **Import Method:** Flat File Source (CSV import)
 - **Data Cleaning:** VARCHAR to DECIMAL conversions for sales columns
 
-### 15 Common Business Questions
+## 15 Business Questions Analyzed
 
 ### How many games were released for each console?
 ```sql
