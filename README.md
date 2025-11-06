@@ -58,11 +58,12 @@ WHERE Total_Sales > 10000000
 ORDER BY Total_Sales DESC
 ```
 ### How many games did each publisher release? Order by count descending.
+```sql
 SELECT Publisher, COUNT(Game) AS TotalReleases
 FROM [PlayStation Sales and Metadata (PS3PS4PS5) (Oct 2025)]R
 GROUP BY Publisher
 ORDER BY TotalReleases DESC
-
+```
 ### Which publishers released games for only one console?
 ```sql
 SELECT Publisher,Game, MIN(Console) AS Console
