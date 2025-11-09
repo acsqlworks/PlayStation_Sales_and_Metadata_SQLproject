@@ -2,6 +2,9 @@
 ![Playstation](https://github.com/acsqlworks/PlayStation_Sales_and_Metadata_SQLproject/blob/main/playstation%20logo.png)
 
 ## Project Overview
+[![Data Source](https://img.shields.io/badge/Data-Kaggle-20BEFF?style=flat&logo=kaggle)](https://www.kaggle.com)
+[![SQL](https://img.shields.io/badge/SQL-Server-CC2927?style=flat&logo=microsoft-sql-server)](https://www.microsoft.com/sql-server)
+[![Excel](https://img.shields.io/badge/Excel-Analysis-217346?style=flat&logo=microsoft-excel)](https://www.microsoft.com/excel)
 
 This project analyzes PlayStation gaming sales data across three console generations (PS3, PS4, PS5) using SQL. The dataset combines sales figures from VGChartz with game metadata from the RAWG API to provide comprehensive insights into gaming industry trends, publisher performance, and regional market distributions.
 
